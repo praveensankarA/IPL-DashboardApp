@@ -1,0 +1,86 @@
+/* Write your CSS here */
+
+.team-card-main-container {
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.team-banner-img {
+  width: 90%;
+  border-radius: 2px;
+  /* margin-top: 30px; */
+}
+
+.last-match-text {
+  color: white;
+  font-weight: 800;
+  align-self: flex-start;
+  margin-left: 25px;
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+.last-match-container {
+  display: flex;
+  background-color: #1e293b;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px 10px;
+  min-height: 30vh;
+}
+.opponent-team-details-container {
+  width: 60%;
+  color: #ffff;
+  font-size: 12px;
+}
+.opponent-team-img-container {
+  width: 40%;
+  /* height: 10vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opponent-tem-logo {
+  width: 60%;
+}
+.line {
+  width: 96%;
+  align-self: center;
+}
+.opponent-team-more-details-container {
+  width: 100%;
+  color: #ffff;
+}
+
+@media (min-width: 600px) {
+  .line {
+    display: none;
+  }
+  .team-banner-img {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .last-match-text {
+    margin-left: 70px;
+  }
+  .last-match-container {
+    width: 90%;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  .opponent-team-details-container {
+    width: 20%;
+  }
+  .opponent-team-img-container {
+    width: 30%;
+  }
+  .opponent-team-more-details-container {
+    text-align: right;
+    width: 20%;
+  }
+}

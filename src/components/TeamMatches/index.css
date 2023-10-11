@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.team-main-bg-container {
+  min-height: 100vh;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.spinner-team-match {
+  margin-bottom: 100px;
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #d91c1f, #b1161678);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #45169b, #ffffff33);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #a4261d, #ffffff33);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #ffffff33);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #ffffff33);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #ffffff33);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #ffffff33);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #ffffff33);
+}
+
+.match-card-container {
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: -20px;
+}
